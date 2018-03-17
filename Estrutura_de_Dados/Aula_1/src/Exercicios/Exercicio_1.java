@@ -1,5 +1,6 @@
-package aula_1;
-public class Aula_1 {
+package Exercicios;
+
+public class Exercicio_1 {
 
     public static void main(String[] args) {
       
