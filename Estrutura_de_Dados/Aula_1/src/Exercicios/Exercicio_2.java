@@ -62,7 +62,7 @@ public class Exercicio_2 {
             
             System.out.println("Porcentagem de pessoas com idade entre 10 e 30 anos entre as pessoas com mais de 1,90 de altura: "+porcentagem+"%");
         }catch(ArithmeticException ex){
-            System.out.println("Não há pessoas com mais de 1,90m!");
+            System.out.println("0%\nNão há pessoas com mais de 1,90m!");
         }
         
         
