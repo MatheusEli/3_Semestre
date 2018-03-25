@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package aula_5_ed;
-
-/**
- *
- * @author Matheus
- */
 public class Fila_Estatica {
     
+    long[]valores;
+    int primeiro;
+    int ultimo;
+    int total;
+    
+    
+    
+    public Fila_Estatica(int maxSize){
+        
+        valores = new long[maxSize];
+        primeiro = 0;
+        ultimo = 0;
+        total = 0;
+    }
 }
